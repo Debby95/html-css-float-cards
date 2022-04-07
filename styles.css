@@ -13,12 +13,13 @@ h1 {
 
 p {
     color: black;
+    font-size: 16px;
 }
 
 body {
     font-family: 'Comfortaa', cursive;
-    font-size: 16px;
     color: white;
+    font-size: 12px;
 }
 
 .container {
@@ -39,7 +40,7 @@ body {
     float: left;
     width: calc(100% / 3);
     padding: 0 2px;  
-    margin-top: 30px; 
+    margin-top: 30px;   
 }
 
 .col img {
@@ -49,18 +50,25 @@ body {
 
 .horizontal-layout .float-right{
     float: right;
-    width: calc(100% - 100px);
-    background-color: #0F0E17;
-    padding-bottom: 44px;
-    margin-bottom: 50px;   
+    width: 200px;
+    height: 100px;
+    background-color: #0F0E17; 
+    margin-right: 21px;  
+    padding-top: 20px;
+    line-height: 20px;
 }
 
 .horizontal-layout img {
     width: 100px;
 }
 
-.float-right {
-    text-align: center;
+.float-right { 
+    padding-left: 15px;
+}
+
+a {
+    color: #18CCF2;
+    text-decoration: none;
 }
 
 
